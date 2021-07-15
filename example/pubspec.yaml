@@ -1,0 +1,52 @@
+name: dexcom_flutter_example
+description: A simple app that demonstrates the use of dexcom_flutter.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ------- DEXCOM_FLUTTER 
+  dexcom_flutter:
+    path: ../
+  # --------------------
+    
+  # ----- SHAREDPREFERENCES
+  #shared_preferences: ^2.0.5
+  # -----
+
+  # ----- PROVIDER
+  provider: ^5.0.0
+  # -----
+
+  # ----- GETIT
+  #get_it: ^6.0.0
+  # -----
+
+  # ----- MOOR (for databases)
+  moor: ^4.2.1 # use the latest version
+  sqlite3_flutter_libs: # Also use the latest version.
+  path_provider:
+  path:
+  # -----
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # ----- MOOR 
+  moor_generator: # use the latest version
+  build_runner: 
+  # ----- 
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
