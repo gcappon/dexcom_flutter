@@ -1,6 +1,6 @@
 # dexcom_flutter
 
-<img src="https://github.com/gcappon/dexcom_flutter/blob/master/doc/dexcom_flutter-logo.png" width="250" height="250">
+<img src="https://i.postimg.cc/2jbSGwG5/dexcom-flutter-logo.png" width="250" height="300">
 A Flutter package to make your life easier when dealing with Dexcom Web APIs.
 
 ## Buy me a coffee
